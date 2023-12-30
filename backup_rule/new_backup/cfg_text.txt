@@ -1,0 +1,19 @@
+K -> S P | S P O | S P Pel | S P Ket | S P O Pel | S P O Ket | S P Pel Ket | S P O Pel Ket | 
+S -> NP
+P -> PP | VP | AdjP | NP
+O -> NP
+Pel -> NP | VP | AdjP
+Ket -> PP | NP | NumP | AdjP
+NP -> PropNoun | Pronoun | Noun | NP AdjP | NumP NP | NP Noun | NP PropNoun | NP Pronoun
+VP -> Verb | AdvP VP
+PP -> Prep NP | Prep AdvP | Prep AdjP | Prep VP
+AdjP -> Adj | Adv AdjP
+AdvP -> Adv | Adv AdvP
+NumP -> Num | Num NumP
+Noun -> sekolah | keluarga | telur | kucing | anjing | penjelasan | hewan | siang | kantor | pak | kuburan | rumah | semangat | pengunjung | kak | ayah | ibu | istri | suami | om | komputer | tas | roti | sungai | bulan | gelas | mobil | motor | kue | boneka | peralatan | anak | tempat | waktu | konsultasi | sepanjang | hormat | antara | sekali | SD | maraton | pasar | belanja | pagi | tadi | belakang | suara | pintu | sore | bawah | tidur | matematika | pelaut | kapal | toko | taman | safari | pensil | tengah | meja | laut | murid | muridnya | yayasan | uang | penjual | permen | SD | sekolah | dasar | jalan | lapangan | istana | presiden | keadaan | teman | temannya | kelas | kode | kode-kode | harga | juara | proyektor | menara | ketampanannya | pahala | pahalanya | kejahatan | dunia | kemunafikan | kemunafikannya | rumahnya | foto | ponsel | ponselnya | lemari | nilai | nilainya | nasi | peraturan | kampus | teras | keseharian | kesehariannya
+Pronoun -> saya | kamu | kalian | dia | mereka | aku | ini | itu | ia
+PropNoun -> Kresna | Arista | Puja | Farel | Ilham | Jawa |  China | Papua | Tabanan | Yulius | Anton | Rusdi | Ani | Lorraine | Jordan | Gerry | Rafael | David | Farel | Rafael | Anita | Yunus | Yunus | Chan | Doni | Jokowi | Budi | Marita | Doni | Gery | Nanda | Risol | Renon | Eka | Marita | ninja | Han | Radja
+Adv -> akan | sangat | sedang | baru | sudah | saja | tidak | belum | sekali | tentu | harus | sering | agak | lebih
+Adj -> penting | keras | mandiri | kecil | baru | hormat | sendiri | tampan | takut | gembira | kesal | kecewa | sabar | lelah | indah | ganteng | lambat | cerdas | luas | sempit | bersih | kotor | singkat | tentu | maraton | aneh | besar | nyenyak | dalam | lokal | giat | lebih
+Verb -> suka | pergi | datang | merokok | belajar | bermain | mengamati | membeli | memberikan | menyumbang | memberi | bernyanyi | terlihat | merasa |  berniat | berpuasa | terkejut | percaya | terletak | mendengar | menyimpan | memasak | merasa | menunggu | terletak | termenung | tersembunyi | menuju | sampai | berperang | mereka | tidur | verb | lari | bekerja | jalan | jalan-jalan | pulang | makan | lantik | mandi | bergegas | memukul | terkesima | menang | berlatih | lebih | goreng
+Prep -> di | ke | dari | pada | untuk | dengan | oleh | sampai | sejak | antara | sebelum | akan | kepada | agar
