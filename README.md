@@ -8,7 +8,7 @@ Final Project Parsing Bahasa Indonesia dengan Algoritma CYK
 - I Made Treshnanda Mas (2208561089)
 - Wayan Farel Nickholas Sadewa (2208561051)
 - David Brave Moarota Zebua (2208561063)
-- Desak Putu Tia Rusiliawati
+- Desak Putu Tia Rusiliawati (2208561143)
 
 ## Instalasi
 - Clone repository ini
