@@ -26,25 +26,25 @@ def parse(string):
 
     for j in range(0, n):
         for i in range (j, -1, -1):
-            # print('i: ', i) # Penitng
-            # print("j: ", j) # Penting 
-            # print('hasil algoritma: ') # Penting
+            print('i: ', i) # Penitng
+            print("j: ", j) # Penting 
+            print('hasil algoritma: ') # Penting
             for k in range(i, j):
-                # print("k: ", k) # Penting
+                print("k: ", k) # Penting
                 result = f"({i}, {k}): {table[i][k]} * ({k+1}, {j}): {table[k+1][j]}"
-                # print(f'{result}: ', end=" ") # Penting
+                print(f'{result}: ', end=" ") # Penting
                 for lhs, rule in dict.items():
                     for rhs in rule:
                         if len(rhs.split()) == 2 and rhs.split()[0] in table[i][k] and rhs.split()[1] in table[k+1][j]:
                             table[i][j].add(lhs)
-                            # print(f"-> ({i}, {j}): '{rhs.split()[0]}', '{rhs.split()[1]}', non-terminal berada di: {lhs} ") # Penting
+                            print(f"-> ({i}, {j}): '{rhs.split()[0]}', '{rhs.split()[1]}', non-terminal berada di: {lhs} ") # Penting
                             #print(f"{result} -> ({i}, {j}): non-terminal berada di: {lhs} ")
-            #     print() # Penting
-            #     print() # Penting
-            # print(tabulate(table, headers=[f"{idx}" for idx in range(n)], tablefmt="fancy_grid")) # Penting
-            # print('==-----------------------------------------------------------------') # Penting
-            # print() # Penting
-            # print() # Penting
+                print() # Penting
+                print() # Penting
+            print(tabulate(table, headers=[f"{idx}" for idx in range(n)], tablefmt="fancy_grid")) # Penting
+            print('==-----------------------------------------------------------------') # Penting
+            print() # Penting
+            print() # Penting
 
     for i in range(0, n):
         table2[0][i] = table[i][i]
